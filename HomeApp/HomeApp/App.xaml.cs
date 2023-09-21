@@ -9,7 +9,7 @@ namespace HomeApp
         {
             InitializeComponent();
 
-            MainPage = new RegisterPage();
+            MainPage = new RoomsPage();
         }
 
         protected override void OnStart()
