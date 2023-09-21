@@ -1,6 +1,7 @@
 ﻿using System;
 
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace HomeApp.Pages
 {
@@ -13,7 +14,8 @@ namespace HomeApp.Pages
 
         private void Login_Click(object sender, EventArgs e)
         {
-            loginButton.Text = "Выполняется вход...";
+            string xaml = "<Button Text=\"⌛ Выполняется вход..\"  />";
+            loginButton.LoadFromXaml(xaml);
         }
     }
 }
