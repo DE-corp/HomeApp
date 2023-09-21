@@ -1,6 +1,4 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
 namespace HomeApp
 {
@@ -10,7 +8,7 @@ namespace HomeApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new LoadingPage();
         }
 
         protected override void OnStart()
